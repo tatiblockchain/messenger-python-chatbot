@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Karabo", "My name is Karabo", "You can call me KB for short", "I am Karabo, my friends call me KB", "Karabo is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can give you more information on the Courses we have available on Skolo"]
+      },
+      {
+        "tag": "django",
+        "patterns": ["What is Django", "I would like to learn more about Django", "How can you build a Django Website", "Can you show me Django"],
+        "responses": ["I can direct you to our Python Django Web Development Course here: https://skolo.online/courses/course-ceb7041ac56f/python-django-tutorial:-create-a-web-application-masterclass/"]
+      },
+      {
+        "tag": "wordpress",
+        "patterns": ["What is Wordpress", "Show me Wordpress", "Build a Wordpress Website", "How to build a Wordpress Website", "Create Website Wordpress"],
+        "responses": ["I can direct you to our Wordpress Web Development Course here: https://skolo.online/courses/course-f3dfad9232f1/wordpress-masterclass-full-course-with-on-page-seo/"]
+      },
+      {
+        "tag": "ecommerce",
+        "patterns": ["What is eCommerce", "Show me eCommerce", "Build a ecommerce Website", "How to build a ecommerce Website", "Create Website eCommerce"],
+        "responses": ["I can direct you to our eCommerce Web Development Course here: https://skolo.online/courses/course-09d6aafc1dba/ecommerce-woocommerce-web-development-seo-masterclass/"]
+      },
+      {
+        "tag": "blogging",
+        "patterns": ["What is Blogging", "Show me blogging", "Build a blogging Website", "How to build a blogging Website", "Create Website blogging"],
+        "responses": ["I can direct you to our Blogging Web Development Course here: https://skolo.online/courses/course-07329cab690c/create-wordpress-website-make-money-online-blogging/"]
+      },
+      {
+        "tag": "blockchain",
+        "patterns": ["What is Blockchain", "Show me blockchain", "Create a blockchain from scratch", "Create a blockchain using python", "python blockchain"],
+        "responses": ["I can direct you to our Blockchain Development Course here: https://skolo.online/courses/course-5e3cc72fd100/create-a-blockchain-from-scratch-using-python/"]
+      },
+      {
+        "tag": "bootsrap",
+        "patterns": ["What is Bootsrap", "Show me bootsrap", "Bootsrap Library", "Create a website using bootsrap"],
+        "responses": ["I can direct you to our Bootsrap Development Course here: https://skolo.online/courses/course-de5da4035b7e/create-bootsrap-website-step-by-step-tutorial/"]
+      },
+      {
+        "tag": "adwords",
+        "patterns": ["What is adwords", "Google adwords", "Google paid advertising", "How to create google adwords campaign", "how to use adwords"],
+        "responses": ["I can direct you to our Google AdWords Course here: https://skolo.online/courses/course-ce7efd3aeb27/google-adwords-for-beginners/"]
+      }
+  ]
+}
