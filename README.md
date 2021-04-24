@@ -12,10 +12,12 @@ virtualenv messengerenv
 
 source messengerenv/bin/activate
 Install all the required libraries
+```
 pip install nltk
 pip install numpy
 pip install keras
 pip install tensorflow
+```
 
 Run the chatbot.py file to create the model
 
@@ -30,9 +32,11 @@ Run the APP to create a Flask front end on port 8888 (or any port the app is poi
 
 
 ## Install Libraries Flask Application
+```
 pip install flask
 pip install requests
 pip install wsgi
+```
 
 
 ## Go through this Video Tutorial to deploy your flask application on HTTPS server, this is required for the Facebook Messenger API for the webhook
